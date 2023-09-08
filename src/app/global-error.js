@@ -1,11 +1,11 @@
-'use client'
+"use client";
 
 /**
  * Summary. To specifically handle errors in root layout.js
- * 
+ *
  * @link https://nextjs.org/docs/app/api-reference/file-conventions/error#global-errorjs
  */
- 
+
 export default function GlobalError({ error, reset }) {
   return (
     <html>
@@ -14,5 +14,5 @@ export default function GlobalError({ error, reset }) {
         <button onClick={() => reset()}>Try again</button>
       </body>
     </html>
-  )
+  );
 }

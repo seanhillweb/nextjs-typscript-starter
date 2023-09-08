@@ -1,21 +1,21 @@
-'use client' // Error components must be Client Components
+"use client"; // Error components must be Client Components
 
 /**
  * Summary.
- * 
+ *
  * Description. An error file defines an error UI boundary for a route segment. It is useful for catching unexpected errors that occur in Server Components and Client Components and displaying a fallback UI.
- * 
+ *
  * @link https://nextjs.org/docs/app/api-reference/file-conventions/error
  */
- 
-import { useEffect } from 'react'
- 
+
+import { useEffect } from "react";
+
 export default function Error({ error, reset }) {
   useEffect(() => {
     // Log the error to an error reporting service
-    console.error(error)
-  }, [error])
- 
+    console.error(error);
+  }, [error]);
+
   return (
     <div>
       <h2>Something went wrong!</h2>
@@ -28,5 +28,5 @@ export default function Error({ error, reset }) {
         Try again
       </button>
     </div>
-  )
+  );
 }

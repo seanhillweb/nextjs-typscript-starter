@@ -6,8 +6,8 @@
  * @link https://nextjs.org/docs/app/api-reference/file-conventions/not-found
  */
 
-import Link from 'next/link'
- 
+import Link from "next/link";
+
 export default function NotFound() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -15,5 +15,5 @@ export default function NotFound() {
       <p>Could not find requested resource</p>
       <Link href="/">Return Home</Link>
     </main>
-  )
+  );
 }

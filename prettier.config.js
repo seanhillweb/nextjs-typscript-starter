@@ -1,8 +1,10 @@
 /** @type {import("prettier").Config} */
 
-module.exports = {
-  trailingComma: "all",
+const prettierConfig = {
+  trailingComma: "es5",
   tabWidth: 2,
   printWidth: 80,
-  singleQuote: true,
+  singleQuote: false,
 };
+
+module.exports = prettierConfig;

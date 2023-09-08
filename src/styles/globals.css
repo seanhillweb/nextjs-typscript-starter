@@ -43,7 +43,7 @@ h6 {
 }
 
 h1 {
-  @apply text-5xl
+  @apply text-5xl;
 }
 
 h2 {
@@ -73,7 +73,7 @@ p {
 ul,
 ol {
   @apply my-4;
-  @apply pl-4
+  @apply pl-4;
 }
 
 ul {
