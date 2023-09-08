@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { Disclosure } from '@headlessui/react';
-import { ChevronUpIcon } from '@heroicons/react/20/solid';
+import { Disclosure } from "@headlessui/react";
+import { ChevronUpIcon } from "@heroicons/react/20/solid";
 
 export default function Accordion() {
   return (
@@ -14,7 +14,7 @@ export default function Accordion() {
                 <span>What is your refund policy?</span>
                 <ChevronUpIcon
                   className={`${
-                    open ? 'rotate-180 transform' : ''
+                    open ? "rotate-180 transform" : ""
                   } h-5 w-5 text-purple-500`}
                 />
               </Disclosure.Button>
@@ -33,7 +33,7 @@ export default function Accordion() {
                 <span>Do you offer technical support?</span>
                 <ChevronUpIcon
                   className={`${
-                    open ? 'rotate-180 transform' : ''
+                    open ? "rotate-180 transform" : ""
                   } h-5 w-5 text-purple-500`}
                 />
               </Disclosure.Button>

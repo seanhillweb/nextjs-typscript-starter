@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 /**
  * Summary. To specifically handle errors in root layout.js
