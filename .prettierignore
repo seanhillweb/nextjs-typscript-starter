@@ -1,6 +1,12 @@
-.next
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+
+# typescript
 next-env.d.ts
-node_modules
-yarn.lock
+
+# production
+/public
 package-lock.json
-public

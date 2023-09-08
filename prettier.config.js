@@ -1,10 +1,12 @@
 /** @type {import("prettier").Config} */
 
 const prettierConfig = {
-  trailingComma: "es5",
-  tabWidth: 2,
+  plugins: ['prettier-plugin-tailwindcss'],
   printWidth: 80,
-  singleQuote: false,
+  semi: true,
+  singleQuote: true,
+  tabWidth: 2,
+  trailingComma: 'es5',
 };
 
 module.exports = prettierConfig;
