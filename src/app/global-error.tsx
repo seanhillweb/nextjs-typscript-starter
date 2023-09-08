@@ -6,7 +6,13 @@
  * @link https://nextjs.org/docs/app/api-reference/file-conventions/error#global-errorjs
  */
 
-export default function GlobalError({ error, reset }) {
+export default function GlobalError({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string };
+  reset: () => void;
+}) {
   return (
     <html>
       <body>
